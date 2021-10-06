@@ -254,11 +254,35 @@ nav li a:hover {
  }
 
 footer{
+    margin-top: 50px;
     background-color: rgb(32, 32, 32);
 }
 
+#fine h2{
+    color: blue;
+}
 
+#fine img{
+    width: 30px;
+}
+#fine span i{
+    color:white;
+    font-size: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+#fine span{
+    font-size: 20px;
+    color: white;
+    margin-left: 15px;
+}
 
+#fine p i{
+    color: white;
+    font-size: 40px;
+
+    margin-left: 15px;
+}
 
 
 /* DEBUG */
