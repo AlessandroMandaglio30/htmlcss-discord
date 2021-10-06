@@ -8,3 +8,110 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* BTN */
+.btn {
+    padding: 5px 10px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 2em;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header{
+    height: 80px;
+    background-color: #255ee9;
+    line-height: 80px;
+}
+
+#logo,
+#accedi {
+    width: 25%;
+    float: left;
+}
+
+#accedi{
+    text-align: center;
+}
+
+#logo img{
+    vertical-align: middle;
+}
+
+nav{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+/* MAIN */
+#jumbotron{
+    height: 550px;
+}
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+.debug .container{
+    height: 100%;
+}
+
+.debug .row div,
+.debug .row nav{
+    height: 80px%;
+}
+/* .debug header{
+    background-color: red;
+} */
+
+.debug #jumbotron{
+    background-color: yellow;
+}
+
+.debug main{
+    height: 900px;
+    background-color: gray;
+}
+
+.debug footer{
+    height: 500px;
+    background-color: green;
+}
