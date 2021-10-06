@@ -233,6 +233,11 @@ nav li a:hover {
     padding: 10px;
  }
 
+#quinto img{
+    display: block;
+    margin:0 auto;
+}
+
 #quinto h2{
     text-align: center;
     font-size: 30px;
@@ -248,8 +253,9 @@ nav li a:hover {
      
  }
 
-
-
+footer{
+    background-color: rgb(32, 32, 32);
+}
 
 
 
@@ -277,7 +283,6 @@ nav li a:hover {
     height: 2900px;
      background-color: gray; 
 */
-.debug footer{
+/* .debug footer{
     height: 500px;
-    background-color: green;
-}
+    /* background-color: green; */
