@@ -22,13 +22,29 @@ body{
 }
 /* BTN */
 .btn {
-    padding: 5px 10px;
-    color: black;
+    padding: 10px 15px;
     font-size: 14px;
     font-weight: 600;
-    background-color: white;
     border-radius: 2em;
     text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+.big{
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 2em;
+}
+
+.white{
+    background-color: white;
+    color: black;
+}
+
+.black{
+    background-color: black;
+    color: white;
 }
 
 /* HEADER */
@@ -79,6 +95,28 @@ nav li a:hover {
 /* MAIN */
 #jumbotron{
     height: 550px;
+    color: white;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    text-align: center;  
+    position: relative;
+}
+
+#jumbotron .jumbo-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50% -60%);
+}
+
+#jumbotron h1{
+    font-size: 60px;
+}
+#jumbotron p{
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 
@@ -94,17 +132,17 @@ nav li a:hover {
     height: 100%;
 }
 
-.debug .row div,
+/* .debug .row div,
 .debug .row nav{
-    height: 80px%;
-}
+    height: 80px;
+} */
 /* .debug header{
     background-color: red;
 } */
 
-.debug #jumbotron{
+/* .debug #jumbotron{
     background-color: yellow;
-}
+} */
 
 .debug main{
     height: 900px;
